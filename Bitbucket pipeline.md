@@ -27,8 +27,9 @@ Developer --> Bitbucket --> AWS S3 --> AWS CodeDeploy --> AWS EC2
 ## Disadvantages
 
 * Less flexible or you can't a lot of control on build process.
-* Very less integrations are available
+* Very less integrations are available.
 * Can't run on a VM.
+* Limited build time.
 
 ## Pricing
 
