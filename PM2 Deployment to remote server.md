@@ -55,7 +55,7 @@ pm2 deploy config.json production setup
 ```
 4. Deploy the code
 ```bash
-pm2 deploy ecosystem.json production
+pm2 deploy config.json production
 ```
 **Note:** For help try ```pm2 deploy help```
 
