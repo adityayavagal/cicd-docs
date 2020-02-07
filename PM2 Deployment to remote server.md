@@ -1,7 +1,7 @@
 ﻿# pm2 Tool Deploy to remote server
 
-**Command:** ```pm2 <config_file> <environment> ```
-**Example:** ```pm2 <config_file> <environment> ```
+**Command:** `pm2 <config_file> <environment>`
+**Example:** `pm2 <config_file> <environment>`
 
 ## Config file options
 | Entry name | Description | Type | Default |
@@ -29,7 +29,6 @@
       "script" : "http.js"
    }],
    "deploy" : {
-     // "production" is the environment name
      "production" : {
        "user" : "ubuntu",
        "host" : ["192.168.0.13"],
