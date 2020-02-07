@@ -1,4 +1,4 @@
-﻿# pm2 Tool Deploy to remote server
+﻿# PM2 Tool Deploy to remote server
 
 **Command:** `pm2 <config_file> <environment>`
 **Example:** `pm2 <config_file> <environment>`
