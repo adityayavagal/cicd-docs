@@ -71,4 +71,4 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 Copy the password from terminal and paste into administrator password field and click continue and choose the suitable settings for you and follow the steps
 
-**Note:** This installation follows the steps given in this [link](https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-18-04/#installing-jenkins){:target="_blank"}
+**Note:** This installation follows the steps given in this [link](https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-18-04/#installing-jenkins)
