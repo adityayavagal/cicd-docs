@@ -10,7 +10,7 @@ It exposes a single URI endpoint that you can add as a WebHook within each Bitbu
 
 ## How to do it
 
-1. Install the bitbucket plugin from jenkins market.![Bit bucket plugin image](./images/bitbucket plugin img.png "Bitbucket Plugin image")
+1. Install the bitbucket plugin from jenkins market.![Bit bucket plugin image](./images/bitbucket%20plugin%20img.png "Bitbucket Plugin image")
 
 2. Configure bitbucket repository with a webhook. 
 
@@ -26,7 +26,7 @@ It exposes a single URI endpoint that you can add as a WebHook within each Bitbu
 
      - Check status **Active** and make sure Triggers is set to **Repository push** and **Save**
 
-       Bitbucket Webhook Configuration. ![Bitbucket webhook config](./images/bitbucket webhook.png "Bitbucket Webhook Configuration")
+       Bitbucket Webhook Configuration. ![Bitbucket webhook config](./images/bitbucket%20webhook.png "Bitbucket Webhook Configuration")
        
 
 
@@ -49,20 +49,20 @@ It exposes a single URI endpoint that you can add as a WebHook within each Bitbu
 
    - In security section select SSH keys. 
    - Click add key and Enter a label.
-   - Copy and paste the public you displayed in the terminal in key field and save.![Bitbucket ssh key Screenshot](./images/ssh key bitbucket.png "Bitbucket ssh key page")
+   - Copy and paste the public you displayed in the terminal in key field and save.![Bitbucket ssh key Screenshot](./images/ssh%20key%20bitbucket.png "Bitbucket ssh key page")
 
 4. Display the secret key and add in Jenkins.
    - `cat ~/.ssh/id_rsa`
    - Open jenkins and Go to Credentials and add global credentials.
    - Change the kind to **SSH Username with private key**.
-   - Give ID and name and in private key option select Enter directly and paste the private key you just displayed.!["Jenkins SSH Key"](./images/ssh key.png "SSH Key")
+   - Give ID and name and in private key option select Enter directly and paste the private key you just displayed.!["Jenkins SSH Key"](./images/ssh%20key.png "SSH Key")
 
 ------
 
 **Note: ** If using this step Make sure you have a separate user for jenkins for safety purpose. 
 
 1. Open Jenkins and go to Credentials and add global credentials.
-2. add the bitbucket username and password and give it a Unique ID and Save the Credentials.!["Jenkins Credentials Page"](./images/usr and pwd cred.png "Jenkins Credentials Page")
+2. add the bitbucket username and password and give it a Unique ID and Save the Credentials.!["Jenkins Credentials Page"](./images/usr%20and%20pwd%20cred.png "Jenkins Credentials Page")
 
 ## Creating a Sample Job
 
