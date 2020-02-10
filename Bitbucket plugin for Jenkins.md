@@ -59,7 +59,7 @@ It exposes a single URI endpoint that you can add as a WebHook within each Bitbu
 
 ------
 
-**Note: ** If using this step Make sure you have a separate user for jenkins for safety purpose. 
+**Note:** If using this step Make sure you have a separate user for jenkins for safety purpose. 
 
 1. Open Jenkins and go to Credentials and add global credentials.
 2. add the bitbucket username and password and give it a Unique ID and Save the Credentials.!["Jenkins Credentials Page"](./images/usr%20and%20pwd%20cred.png "Jenkins Credentials Page")
