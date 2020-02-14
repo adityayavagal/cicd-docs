@@ -4,6 +4,7 @@
 **Example:** `pm2 <config_file> <environment>`
 
 ## Config file options
+
 | Entry name | Description | Type | Default |
 |--|--|--|--|
 | key | SSH key path | String | $HOME/.ssh |
@@ -53,7 +54,9 @@ ssh-copy-id node@myserver.com
 ```bash
 pm2 deploy <configuration_file> <environment> setup
 ```
+
 Example:
+
 ```bash
 pm2 deploy config.json production setup
 ```
@@ -67,5 +70,6 @@ pm2 deploy config.json production
 **Note:** For help try ```pm2 deploy help```
 
 ## References:
+
 1. [pm2 Single Page Doc ](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
 2. [pm2 Deployment](https://pm2.keymetrics.io/docs/usage/deployment/)
