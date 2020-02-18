@@ -19,3 +19,14 @@
     ```bash
     cat ~/.ssh/id_rsa.pub
     ```
+
+5. **In your Jenkins Build Job in Build Section add "Execute shell" option and enter below command**
+
+    ```bash
+    # pm2 deploy ecosystem.config.js <env_you_want_to_run>
+    pm2 deploy ecosystem.config.js production
+    ```
+
+## Ref
+
+1. For ecosystem.config.js refer [documentation](https://pm2.keymetrics.io/docs/usage/application-declaration/) or [deployment](https://pm2.keymetrics.io/docs/usage/deployment/) 
