@@ -67,9 +67,15 @@ pm2 deploy config.json production setup
 pm2 deploy config.json production
 ```
 
-**Note:** For help try ```pm2 deploy help```
+**Note:**
 
-## References:
+- For help try ```pm2 deploy help```
 
-1. [pm2 Single Page Doc ](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
+**Issue/Bug:**
+
+- `pm2 delpoy revert` can be used revert/rollback to previous deployment version since it has a bug, even though it rollbacks to previous version it gives deployment failed please watchout while using it.
+
+## References
+
+1. [pm2 Single Page Doc](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
 2. [pm2 Deployment](https://pm2.keymetrics.io/docs/usage/deployment/)

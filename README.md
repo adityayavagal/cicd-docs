@@ -8,7 +8,6 @@
 - Jenkins
 - pm2
 
-
 ## Instrctions
 
 - To Install Jenkins follow [jenkins installation.md](./jenkins%20installation.md)
