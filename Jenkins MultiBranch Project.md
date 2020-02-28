@@ -13,5 +13,5 @@
 
 - Creating a Multi Branch Pipeline Project
   - Click on **New Item** and select **Multibranch Pipeline** while creating the Project.
-    ![Multibranch Pipeline](./image/multibranch_pipeline.png "Multibranch Pipeline")
+    ![Multibranch Pipeline](./images/multibranch_pipeline.png "Multibranch Pipeline")
   
