@@ -14,4 +14,15 @@
 - Creating a Multi Branch Pipeline Project
   - Click on **New Item** and select **Multibranch Pipeline** while creating the Project.
     ![Multibranch Pipeline](./images/multibranch_pipeline.png "Multibranch Pipeline")
-  
+
+  - Configure the project go to **Branch Sources** section.
+    - Give the Credentials for project to pull the code from repository.
+    - Give the owner name/organization of the repository.
+    - Now Select the Repository from the Drop down that appears.
+    - And Behaviours can be changed according to your needs(for now Select let it be default).
+    - and save the project.
+  ![Branch Source Section](./images/branch_source.png "Branch Source Section")
+
+**References:**
+- [How to Trigger MultiBranch Job](https://support.cloudbees.com/hc/en-us/articles/115000051132)
+- [Bitbucket Source Plugin](https://plugins.jenkins.io/cloudbees-bitbucket-branch-source/)
